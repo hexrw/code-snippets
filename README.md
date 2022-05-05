@@ -1,4 +1,4 @@
-# Iterate over any JavaScript structure
+# Iterate over any json structure
 
 ```js
 const convert = (data) => {
