@@ -3,11 +3,13 @@
 ```js
 const convert = (data) => {
     if (typeof data === "string") {
-        // convert the string
+        // string
     } else if (typeof data === "number") {
-        // convert the number
+        // number
     } else if (typeof data === "boolean") {
-        // convert the boolean
+        // boolean
+    } else if (data === null) {
+        // null
     } else if (typeof data === "object") {
         if (Array.isArray(data)) {
             return data.map(convert)
